@@ -1,0 +1,96 @@
+body {
+  height: 100%;
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  color: black;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+}
+.navbar-brand {
+  margin-left: 10px;
+  color: #fff;
+}
+.container {
+  padding-top: 100px;
+}
+
+.navbar {
+  background: radial-gradient(
+    circle at 24.1% 68.8%,
+    rgb(50, 50, 50) 0%,
+    rgb(0, 0, 0) 99.4%
+  );
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.navbar a {
+  color: #fff;
+  transition: color 200ms ease;
+}
+.navbar a:hover {
+  background-color: #dbd8e3;
+  transition: background-color 200ms ease, border-color 200ms;
+  border: 1px solid #dbd8e3;
+  border-radius: 15px;
+}
+
+.header {
+  font-size: 60px;
+  line-height: 90px;
+  height: 400px;
+  margin-top: 200px;
+  margin-bottom: 65px;
+  color: #fff;
+  text-align: center;
+}
+#about,
+#education {
+  font-size: 22px;
+}
+.ed-subtitle,
+.ab-subtitle {
+  font-size: 40px;
+}
+section {
+  width: 100%;
+  padding: 40px;
+  margin: 20px 0;
+  padding: 60px 40px;
+  color: #fff;
+}
+.progress-wrap h5 {
+  margin-bottom: 10px; /* Adds space below each heading */
+}
+
+.progress {
+  margin-bottom: 20px; /* Adds space between each progress bar */
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact {
+  background-color: black;
+  max-width: 600px;
+  margin: 0 auto 40px;
+  border: 1px solid balck;
+  border-radius: 20px;
+}
+
+footer {
+  color: #dbd8e3;
+}
+.fixed-footer a {
+  color: #f8f9fa;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+.fixed-footer a:hover {
+  text-decoration: underline;
+}
